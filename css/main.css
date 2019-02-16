@@ -1,6 +1,6 @@
 body {
   background: #eee;
-  font-family: serif;
+  font-family: "Open Sans", sans-serif;
   color: rgb(61,61,61)
 }
 
@@ -9,9 +9,9 @@ header {
   background: #fff
 }
 
-header .brand {
+header p.brand {
   margin:0;
-  font-size: 25px;
+  font-size: 45px;
 }
 
 .cta {
@@ -36,4 +36,18 @@ header .brand {
 
 .btn-primary:hover {
   background: rgb(188, 167, 145)
+}
+
+#contacts {
+  padding: 20px 0;
+  background: #3e3e40;
+  color:#fff
+}
+
+#contacts a {
+  color:#fff
+}
+
+footer {
+  padding: 20px 0;
 }
