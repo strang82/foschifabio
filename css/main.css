@@ -14,6 +14,10 @@ header p.brand {
   font-size: 45px;
 }
 
+h1 {
+  color:#803c3c
+}
+
 .cta {
   background: rgba(83, 65, 48, 1) !important;
   color:#fff;
@@ -50,4 +54,8 @@ header p.brand {
 
 footer {
   padding: 20px 0;
+}
+
+footer p {
+  margin: 0
 }
