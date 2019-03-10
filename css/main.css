@@ -54,3 +54,27 @@ footer {
 footer p {
   margin: 0
 }
+
+.home .jumbotron {
+  display: block;
+  position: relative;
+  background: none;
+  color:#fff;
+  margin-bottom:2px;
+}
+
+.home .jumbotron h1 {
+  color:#fff;
+}
+
+.home .jumbotron::after {
+  content: "";
+  background: url(../i/bg.jpg) repeat-x;
+  opacity: 0.65;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
