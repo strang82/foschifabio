@@ -1,5 +1,5 @@
 body {
-  background: #eee;
+  background: #fff;
   font-family: "Open Sans", sans-serif;
   color: rgb(61,61,61)
 }
@@ -29,12 +29,12 @@ h1 {
 }
 
 .btn-primary {
-  border-color: rgba(83, 65, 48, 1) !important;
-  background: rgba(83, 65, 48, 1) !important;
+  border-color: #b20000;
+  background: #b20000;
 }
 
 .btn-primary:hover {
-  background: rgb(188, 167, 145)
+  background: #3e3e40
 }
 
 #contacts {
@@ -81,7 +81,7 @@ footer p {
 
 @media screen and (max-width:500px) {
   header {
-    padding: 10px 0 0 0
+    padding: 10px 0
   }
   header img {
     max-width: 70%;
