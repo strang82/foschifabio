@@ -18,9 +18,9 @@ h1 {
   color:#fff;
 }
 
-.cta p { 
-  margin: 0; 
-  padding:5px 0px; 
+.cta p {
+  margin: 0;
+  padding:5px 0px;
 }
 
 .cta a {
@@ -67,14 +67,28 @@ footer p {
   color:#fff;
 }
 
-.home .jumbotron::after {
+.home .jumbotron::before {
   content: "";
-  background: url(../i/bg.jpg) repeat-x;
+  background: #b20000 url(../i/bg.jpg) repeat-x bottom left;
   opacity: 0.65;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: -1;   
+  z-index: -1;
+}
+
+@media screen and (max-width:500px) {
+  header {
+    padding: 10px 0 0 0
+  }
+  header img {
+    max-width: 70%;
+    max-height:70%;
+  }
+  .jumbotron h1 {
+    font-size: 2rem;
+    line-height:1.9rem;
+  }
 }
